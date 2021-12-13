@@ -125,7 +125,7 @@ let family100 = [];
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "/> Tato KurrXd";
+fake = "/> Tato Ronaldo";
 autorespon = false
 playmusic = false
 menusimpel = false
@@ -1166,24 +1166,24 @@ reply(cpref)
 cpref = ` *Prefix Saat ini: ( ${prefix} )*`
 reply(cpref)
 }
-if(budy.includes('KurrXd')){
+if(budy.includes('Ronaldo')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
+kurr.sendMessage("62895803299969@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage(from, "Ada apa nyebut owner gw?", text)
 }
-if(budy.includes('kurrxd')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
+if(budy.includes('nal')){
+kurr.sendMessage(from, "langsung aja pm @62895803299969 dia orang nya ganteng", text)
+kurr.sendMessage("62895803299969@s.whatsapp.net", `ada yang manggil`, text)
+kurr.sendMessage(from, "Ganteng kan?", text)
 }
-if(budy.includes('kurrtod')){
-kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
-kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
+if(budy.includes('bot')){
+kurr.sendMessage(from, "ada apa cug?", text)
+kurr.sendMessage("62895803299969@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage(from, "ketik #menu untuk memulai bot", text)
 }
-if(budy.includes('KurrTod')){
+if(budy.includes('Ronal Yatim')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
-kurr.sendMessage("6281220670449@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
+kurr.sendMessage("62895803299969@s.whatsapp.net", `bang dikatain Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
 }
 if(budy.includes('Assalamualaikum')){
@@ -1191,15 +1191,15 @@ cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('assalamualaikum')){
-cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hey Saya YONZZI Botz Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
 if(budy.includes('Hai')){
-cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
+cpref = `Hay Saya YONZZI Botz Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
-if(budy.includes('hai')){
-cpref = `Hay Saya KurrXd Botz Whatsapp Ketik .menu Untuk Mengakses`
+if(budy.includes('halo')){
+cpref = `Hay Saya YONZZI Botz Whatsapp Ketik .menu Untuk Mengakses`
 reply(cpref)
 }
            if (budy.startsWith('>')){
@@ -1334,13 +1334,13 @@ if (!settings.autorecording) {
 kurr.updatePresence(from, Presence.recording)
 }
 if (budy.startsWith('kurr')){
-sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© KurrXd_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
+sendButMessage(from, `${JSON.stringify(me, null, 2)}`, "*_© Ronaldo_*", [{buttonId: 'igm', buttonText: {displayText: 'Instagram'}, type: 1},{buttonId: 'ytm', buttonText: {displayText: 'YouTube'}, type: 1}], {quoted:ftrol, contextInfo: { forwardingScore: 508, isForwarded: true}})
 }
 if(isButton == 'igm'){
-reply('http://instagram.com/kurrsadboy')
+reply('http://instagram.com/RonaldoTumanggor')
 }
 if(isButton == 'ytm'){
-reply('http://youtube.com/c/KurrXd')
+reply('Subcribe Channel DeGong Ji')
 }
 
    const sotoy = [
@@ -1548,7 +1548,7 @@ _ℒ⃝⛔Bio : ${stst}_
 _ℒ⃝💠Nomor : @${stod.split('@')[0]}_
 
 
-*❒ 「 Elaine Botzゑ  MENU 」 ❒*
+*❒ 「 YONZZI Botz MENU 」 ❒*
 
 _ℒ⃝🌊 ${prefix}ownermenu_
 
@@ -1574,7 +1574,7 @@ _ℒ⃝🌊 ${prefix}gamemenu_
 
 _ℒ⃝🌊 ${prefix}othermenu_
  `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldo ゑ_*", {jpegThumbnail:ofrply2,name:""}, [{buttonId:`info`,buttonText:{displayText:'INFO BOT'},type:1},{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2210,7 +2210,7 @@ _ℒ⃝🌊 ${prefix}addimage [ _nama_ ]_
 _ℒ⃝🌊 ${prefix}delimage [ _nama_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldo _*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2218,7 +2218,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` YONZZI ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2283,7 +2283,7 @@ _ℒ⃝🌊 ${prefix}detikvn [ _reply audio caption angka_ ]_
 _ℒ⃝🌊 ${prefix}detikvideo [ _reply video caption angka_ ]_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldo ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2291,7 +2291,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` Ronaldo ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2474,7 +2474,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` Ronaldo ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2530,7 +2530,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` Ronaldo ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2610,7 +2610,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` Ronaldo ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2711,15 +2711,15 @@ _ℒ⃝♏ MCC : 510_
 _ℒ⃝🌐 Platfrom : ${os.platform()}_
 _ℒ⃝📳 Mode : ${publik ? 'Public' : 'Self'}_
 _ℒ⃝☢️ Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-_ℒ⃝👨‍💻 Name Creator : KurrXd_
+_ℒ⃝👨‍💻 Name Creator : Ronaldo 
 
 *🪀GC BOT*
-https://chat.whatsapp.com/Ijb2tF3DLwTK7augBmJfbu
+https://chat.whatsapp.com/GkwC3cupaFhAF9lk1BvwDd
 
 *ゞRULESゞ* /INDO
 _Dilarang keras_
 -SPAM BOT
--CALL BOT
+-TELPON BOT
 -VC BOT
 LANGGAR BANNED
 
@@ -2730,10 +2730,10 @@ CALL BOT
 _VC BOT_
 If you violate, you will be blocked
 
-GITHUB OWNER:https://github.com/KurrXd
-YOUTUBE OWNER:https://youtube.com/c/KurrXd
+GITHUB OWNER:https://github.com/TsukasaCh
+YOUTUBE channel DeGong ji
 `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`speed`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldo ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'STORE BOT'},type:1},{buttonId:`speed`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2741,7 +2741,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` Ronaldo ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2802,13 +2802,13 @@ case 'bego':
 case 'catlog': 
   if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 
-                nama = ' ゑwelcome to kurrxd storeゑ '
-       ownerJid = "6281220670449@s.whatsapp.net"
+                nama = ' ゑwelcome to Ronaldo storeゑ '
+       ownerJid = "62895803299969@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menunya = `*KurrXd Melayani Jasa Pembuatan Vps/Rdp*
+       menunya = `*Ronaldo Store Melayani Jasa Pembuatan Vps/Rdp*
 *Jasa Run Bot/ Hosting Bot*
 *Dengan Harga Terjangkau*
 *_List Harga Rdp_*
@@ -2825,14 +2825,11 @@ MENYEBAB KAN OVERLOAD
 
 OVERLOAD= NO GARANSI
 *_List Harga Vps_*
-Ram 2 Cpu 1 Expire 1 Tahun = 54k
+Ram 2 Cpu 1 Expire 1 Tahun = 50k
 
 *GARANSI 3BULAN SETELAH PEMBAYARAN*
 
-KHUSUS VPS JANGAN PAKSA BUAT JASA RUN BOT
-INGET RAM2 BUKAN BUAT BANYAK BOT 1 AJA
-KALO TERJADI SESUATU YANG TIDAK MEMUNGKINKAN
-KAMI TIDAK BERTANGGUNG JAWAB
+Beli SC BOT YG gw pake? 10k noenc!
 
 MINAT KETIK .owner`
 if(menuall == false){
@@ -2874,7 +2871,7 @@ mhan = await kurr.prepareMessage(from, pporigi, image, {thumbnail: pporigi})
 const btnBngsat = {
 imageMessage: mhan.message.imageMessage,
 contentText: `${menunya}`,
-footerText: `Elaine ゑ`,
+footerText: `Ronaldo ゑ`,
 buttons: gbutsan,
 headerType: 4
 }
@@ -2885,7 +2882,7 @@ break
         stod = `${sender}`
  listMsg = {
  buttonText: 'LIST STORE',
- footerText: '*_© Elaine ゑ_*',
+ footerText: '*_© Ronaldo ゑ_*',
  description: `Ohayoo @${stod.split('@')[0]}, Silahkan Mau Beli Apa Kak...`,
  sections: [
                      {
@@ -2930,7 +2927,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
        ini_txt += `~${get_result.quote}`
        
        menu = ` 𝗢𝗣𝗘𝗡 𝗦𝗘𝗪𝗔𝗕𝗢𝗧
- -ＫｕｒｒＸｄ-
+ -Ronaldo Store-
 
 ＦＩＴＵＲ:
 ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ:500+
@@ -2942,6 +2939,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 -ＡＮＴＩ ＷＡ.ＭＥ
 -ＷＥＬＣＯＭＥ
 -ＬＥＡＶＥ
+- Perintah #kick
 
 ＤＡＮ ＢＡＮＹＡＫ ＬＡＧＩ
 
@@ -2962,7 +2960,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` Ronaldo ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -3003,8 +3001,8 @@ const serialUser = createSerial(18)
  * Pengguna:* ${_registered.length}
 └❏
 
-JANGAN LUPA JOIN GC : https://chat.whatsapp.com/Ijb2tF3DLwTK7augBmJfbu
-*「 Elaine ゑ 」*`
+JANGAN LUPA JOIN GC : https://chat.whatsapp.com/GkwC3cupaFhAF9lk1BvwDd
+*「 Ronaldo ゑ 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'MENU'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1}
@@ -3013,7 +3011,7 @@ mhan = await kurr.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const sendBtnVeryy = {
 imageMessage: mhan.message.imageMessage,
 contentText:`${jancok}`,
-footerText:'Terimakasih Sudah Mendaftar\n*_© kurr_*', 
+footerText:'Terimakasih Sudah Mendaftar\n*_© Ronaldo_*', 
 buttons: gbutsan,
 headerType: 4
 }
@@ -3803,12 +3801,12 @@ let ini_list = []
 for (let i of ownerNumber) {
 const vname = kurr.contacts[i] != undefined ? kurr.contacts[i].vname || kurr.contacts[i].notify : undefined
 ini_list.push({
-"displayName": `Developer Elaine ゑ`,
+"displayName": `Developer YONZZI ゑ`,
 "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;${NamaOwner};;;\nFN:${vname ? `${vname}` : `${NamaOwner}`}\nitem1.TEL;waid=${NomorOwner}:${NomorOwner2}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer Elaine ゑ`,
+"displayName": `Developer YONZZI ゑ`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -3849,7 +3847,7 @@ anu =`${emoji2(prefix)}`
 await kurr.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/mp4', quoted: ftrol, caption: anu})
 break
 case 'sc':
-reply(`🗿= SC ? AOWKOWKW`)
+reply(`🗿= SC ? Bayar 10k noenc`)
 break
 
 
@@ -3869,26 +3867,26 @@ membr.push(goo.jid)
 await kurr.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/gif', quoted: ftrol, thumbnail: gifnya, caption: anu, contextInfo: {mentionedJid: membr}})
 break			
 case 'donasi':
-dona = fs.readFileSync('./media/donasi.jpg')
+dona = fs.readFileSync('./media/donasi4d.jpg')
 doni =`*DONATE NYA KAKA*
 ╭─❒ 「 Donasi 」 ──────*
 *│*
 *│*⬡ *Mau donasi apa cuma liat doang?*
 *│*⬡ *PULSA     : ${pulsa}*
-*│*⬡ *DANA    : ${dana}*
-*│*⬡ *GOPAY    : SCAN DI ATAS AJA*
+*│*⬡ *NO GOPAY    : ${dana}*
+*│*⬡ *QR GOPAY    : SCAN DI ATAS AJA*
 *└───────────────────*
 Scan QR di atas bila belum premium`
 kurr.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
 break
 case 'pay':
 case 'payment':
-dona = fs.readFileSync('./media/donasi.jpg')
-doni =`*╭─❒ 「 KurrXd PAYMENT 」 ──────*
+dona = fs.readFileSync('./media/donasi4d.jpg')
+doni =`*╭─❒ 「 PAYMENT 」 ──────*
 *│*
 *│*⬡ *PEMBAYARAN BISA VIA*
-*│*⬡ *DANA   : 081220670449*
-*│*⬡ *GOPAY/OVO/SHOPEEPAY    : SCAN DI ATAS AJA*
+*│*⬡ *DANA   : 0895803299969*
+*│*⬡ *GOPAY/OVO  : SCAN DI ATAS AJA*
 *└───────────────────*
 Scan QR di atas bila belum premium`
 kurr.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
@@ -3947,12 +3945,12 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `Elaine ゑ`,
+    "hydratedFooterText": `YONZZI ゑ`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script Elaine ゑ`,
-          "url": "https://github.com/KurrXd"
+          "displayText": `Script YONZZI ゑ`,
+          "url": "https://github.com/TsukasaCh"
         },
         "index": 0
       }
