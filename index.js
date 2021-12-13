@@ -146,7 +146,7 @@ const starts = async (kurr = new WAConnection()) => {
 console.log(color('> WITA ','silver'), color(`${wita}`,'mediumseagreen'))
 console.log(color('> WIT ','silver'), color(`${wit}`,'mediumseagreen'))
 console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen'))
-	kurr.browserDescription = [ 'Elaine ', 'ubuntu', '3.0' ]
+	kurr.browserDescription = [ 'BOT ', 'ubuntu', '3.0' ]
 
 	kurr.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN QR NYA'))
@@ -214,7 +214,7 @@ kurr.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
    // owner
 
 
-    const htod = "6281220670449@s.whatsapp.net"
+    const htod = "62895803299969@s.whatsapp.net"
 
     
 
@@ -300,11 +300,11 @@ kurr.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = `🌹 Hi @${num.split('@')[0]} 👋\n🌹 Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} Waktu Server`
+				teks = `🌹 Hi @${num.split('@')[0]} 👋\n🌹 Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} \njangan lupa lihat deskripsi`
 
-				sendButImage(anu.jid, teks, `Elaine ゑ`, img,but = [{buttonId:`donasi`, 
+				sendButImage(anu.jid, teks, `YONZZI ゑ`, img,but = [{buttonId:`donasi`, 
 
-               buttonText:{displayText: 'WELCOME'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+               buttonText:{displayText: 'WELCOME🗿'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'remove') {
 
@@ -397,8 +397,8 @@ kurr.on('group-update', async (anu) => {
 	})
     kurr.on('chat-update', async (message) => {
         require('./kurr.js')(kurr, message)
-        ownerNumber = ["6281220670449@s.whatsapp.net","6281220670449@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
-        dtod = "6281220670449@s.whatsapp.net"
+        ownerNumber = ["62895803299969@s.whatsapp.net","62895803299969@s.whatsapp.net",`${settings.NomorOwner}@s.whatsapp.net`]
+        dtod = "62895803299969@s.whatsapp.net"
        otod = `${settings.NomorOwner}@s.whatsapp.net`
     })  
 }
