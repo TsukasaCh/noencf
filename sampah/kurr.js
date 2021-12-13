@@ -1185,7 +1185,7 @@ cpref = `Hayo Ngomongin KurrXd Ya Gw Bilangin Ah Aowkowk`
 reply(cpref)
 }
 if(budy.includes('KurrTod')){
-cpref = `Hayo Ngomongin KurrTod Ya Gw Bilangin Ah Aowkowk`
+cpref = `Hayo Ngomongin KurrTo Ya Gw Bilangin Ah Aowkowk`
 reply(cpref)
 }
 if(budy.includes('Assalamualaikum')){
@@ -1438,7 +1438,7 @@ kurr.sendMessage(from, listMsg, MessageType.listMessage, {contextInfo: { mention
  stod = `${sender}`
  listMsg = {
  buttonText: 'LIST ALL MENU',
- footerText: '*_© KurrXdゑ v.3.0_*',
+ footerText: '*_© Ronaldoゑ v.3.0_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
@@ -1728,7 +1728,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1888,7 +1888,7 @@ _ℒ⃝🌊 ${prefix}puki_
 _ℒ⃝🌊 ${prefix}pantex_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldoゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1896,7 +1896,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2066,7 +2066,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2129,7 +2129,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2202,7 +2202,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2377,7 +2377,7 @@ _ℒ⃝🌊 ${prefix}kemonomimi_
 _ℒ⃝🌊 ${prefix}nsfw_avatar_        
        
  `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldoゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2385,7 +2385,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2441,7 +2441,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2578,7 +2578,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/meme?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗Ronaldo', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -2589,7 +2589,7 @@ case 'memeindo':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗Ronaldo', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -2612,21 +2612,21 @@ case 'info':
         ini_txt = `*${get_result.character} pernah berkata*\n\n`
        ini_txt += `~${get_result.quote}`
        
-       menu = `╭─❒ 「 KurrXd BOTZ Info 」                           
-*📑NAMA BOT: KurrXd BOTZ*
+       menu = `╭─❒ 「 YONZZI BOTZ Info 」                           
+*📑NAMA BOT: YONZZI BOTZ*
 *📑VERSI BOT: 3.0*
 *📑LIB : BAILEYS*
 *📑TYPESCRIPT: NODE.JS*
 
 *📰FreeRestApi*
-*https://kurrxd-api.herokuapp.com*
+*https://duguol-api.herokuapp.com*
 *🪀GC BOT*
-https://chat.whatsapp.com/Ijb2tF3DLwTK7augBmJfbu
+https://chat.whatsapp.com/GkwC3cupaFhAF9lk1BvwDd
 
 *ゞRULESゞ* /INDO
 _Dilarang keras_
 -SPAM BOT
--CALL BOT
+-Nelpon BOT
 -VC BOT
 LANGGAR BANNED
 
@@ -2637,10 +2637,9 @@ CALL BOT
 _VC BOT_
 If you violate, you will be blocked
 
-GITHUB OWNER:https://github.com/KurrXd
-YOUTUBE OWNER:https://youtube.com/c/KurrXd
+GITHUB OWNER:https://github.com/TsukasaCh
 `
-sendButLocation(from, `${menu}`, "*_© KurrXdゑ v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1},{buttonId:`sewabot`,buttonText:{displayText:'SEWABOT'},type:1},{buttonId:`runtime`,buttonText:{displayText:'RUNTIME BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldo v.3.0_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1},{buttonId:`sewabot`,buttonText:{displayText:'SEWABOT'},type:1},{buttonId:`runtime`,buttonText:{displayText:'RUNTIME BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2709,13 +2708,13 @@ case 'bego':
 case 'catlog': 
   if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 
-                nama = ' ゑwelcome to kurrxd storeゑ '
-       ownerJid = "6281220670449@s.whatsapp.net"
+                nama = ' ゑwelcome to Ronaldo storeゑ '
+       ownerJid = "62895803299969@s.whatsapp.net"
                 nomor = 1
                 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
-       menunya = `*KurrXd Melayani Jasa Pembuatan Vps/Rdp*
+       menunya = `*Ronaldo Store Melayani Jasa Pembuatan Vps/Rdp*
 *Jasa Run Bot/ Hosting Bot*
 *Dengan Harga Terjangkau*
 *_List Harga Rdp_*
@@ -2732,7 +2731,7 @@ MENYEBAB KAN OVERLOAD
 
 OVERLOAD= NO GARANSI
 *_List Harga Vps_*
-Ram 2 Cpu 1 Expire 1 Tahun = 54k
+Ram 2 Cpu 1 Expire 1 Tahun = 50k
 
 *GARANSI 3BULAN SETELAH PEMBAYARAN*
 
@@ -2792,7 +2791,7 @@ break
         stod = `${sender}`
  listMsg = {
  buttonText: 'LIST STORE',
- footerText: '*_© KurrXdゑ v.3.0_*',
+ footerText: '*_© Ronaldoゑ v.3.0_*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan Mau Beli Apa Kak...`,
  sections: [
                      {
@@ -2857,7 +2856,7 @@ RAM = 2GB
 CORE = 1
 SSD = 32GB
 
-HARGA= RP.54.000
+HARGA= RP.50.000
 EXPIRE : 1 TAHUN
  
  `
@@ -2869,7 +2868,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` KurrXdゑ v.3.0`
+menu =` Ronaldoゑ v.3.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -4017,7 +4016,7 @@ case 'sewa':
 case 'sewabot':
 gifnya = await getBuffer('https://telegra.ph/file/9947133ca60fab410e40b.mp4')
 		anu =`𝗢𝗣𝗘𝗡 𝗦𝗘𝗪𝗔𝗕𝗢𝗧
- -ＫｕｒｒＸｄ-
+ -Ronaldo-
 
 ＦＩＴＵＲ:
 ᴛᴏᴛᴀʟ ꜰɪᴛᴜʀ:500+
@@ -4038,7 +4037,7 @@ gifnya = await getBuffer('https://telegra.ph/file/9947133ca60fab410e40b.mp4')
 １５Ｋ＝ ＰＥＲＭＡＮＥＮ
 
 
-MINAT HUB https://bit.ly/SEWABOTBANG
+MINAT HUB https://wa.me/message/ECSFOZWIENOPP1
 
 `
 await kurr.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/gif', quoted: ftrol, thumbnail: gifnya, caption: anu})
@@ -4058,7 +4057,7 @@ membr.push(goo.jid)
 await kurr.sendMessage(from, gifnya, MessageType.video, {mimetype : 'video/gif', quoted: ftrol, thumbnail: gifnya, caption: anu, contextInfo: {mentionedJid: membr}})
 break			
 case 'donasi':
-dona = fs.readFileSync('./media/donasi.jpg')
+dona = fs.readFileSync('./media/donasidd.jpg')
 doni =`*DONATE NYA KAKA*
 ╭─❒ 「 Donasi 」 ──────*
 *│*
