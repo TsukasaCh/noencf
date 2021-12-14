@@ -1,7 +1,7 @@
 {
-  "name": "KurrXd",
+  "name": "noencf",
   "version": "0.0.1",
-  "description": "KurrXd",
+  "description": "WhatsApp BOT",
   "main": "node index",
   "directories": {
     "lib": "lib"
