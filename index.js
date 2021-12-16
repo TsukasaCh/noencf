@@ -135,7 +135,7 @@ const starts = async (kurr = new WAConnection()) => {
 	kurr.logger.level = 'warn'
 	kurr.version = [2, 2140, 12]
 	console.log(color(`\x1b[1;37m> ${tampilUcapan}\n`,'cyan'))
-	console.log(color(figlet.textSync('Elaine Botz', {
+	console.log(color(figlet.textSync('Yonzzi Botz', {
 		font: 'Standard',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -153,7 +153,7 @@ console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen')
 })
 	kurr.on('credentials-updated', () => {
 		fs.writeFileSync('./session.json', JSON.stringify(kurr.base64EncodedAuthInfo(), null, '\t'))
-		info('2', 'Elaine  Loading...')
+		info('2', 'Yonzzi  Loading...')
 	})
 	fs.existsSync('./session.json') && kurr.loadAuthInfo('./session.json')
 	kurr.on('connecting', () => {
@@ -302,9 +302,9 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `🌹 Hi @${num.split('@')[0]} 👋\n🌹 Selamat Datang Di Group: ${mdata.subject}\n\n Join Pada Jam: ${time} \njangan lupa lihat deskripsi`
 
-				sendButImage(anu.jid, teks, `YONZZI ゑ`, img,but = [{buttonId:`donasi`, 
+				sendButImage(anu.jid, teks, `YONZZI ゑ`, img,but = [{buttonId:`verify`, 
 
-               buttonText:{displayText: 'WELCOME🗿'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+               buttonText:{displayText: 'Apakah aku manusia🗿'},type:1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'remove') {
 
@@ -324,7 +324,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `Daahh @${num.split('@')[0]}\nSelamat Tinggal Di Group: ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, `Elaine ゑ`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SAYONARA !!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `YONZZI ゑ`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `BEBAN berkurang tapi jadi sepi`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -364,7 +364,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `「 DEMOTE - DETECTED 」\n\nNama : @${num.split("@")[0]}\nStatus : Admin -> Member\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SABAR YA`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `kick`, buttonText: {displayText: `Kick ajalah udah gak berguna`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			}
 
