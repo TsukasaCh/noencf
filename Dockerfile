@@ -1,20 +1,24 @@
-FROM node:16.10.0-buster
+FROM node:16.13.0
 
 RUN apt-get update && \
   apt-get install -y \
   neofetch \
-  chromium \
   ffmpeg \
   wget \
-  imagemagick \
-  graphicsmagick \
-  webp \
-  mc && \
+  chromium \ 
+  imagemagick && \
   rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
-RUN npm install -g npm@8.1.3
-RUN npm install -g pm2
+RUN npm install -g npm@latest
+RUN npm install 
+RUN npm instal pm2 -g
+RUN npm install ytdl-core@latest
+RUN npm install yt-search@latest
+ENV PM2_PUBLIC_KEY 80mirtgfqvhlq3s
+ENV PM2_SECRET_KEY g7ub9edxu9slz8m
+
 COPY . .
-RUN pm2 save
+EXPOSE 5000
+
 CMD ["pm2-runtime", "index.js"]`
