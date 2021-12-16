@@ -60,7 +60,6 @@
     "spinnies": "^0.5.1",
     "terminal-kit": "^2.1.6",
     "tiktok-scraper-without-watermark": "^1.0.6",
-    "uninstall": "0.0.0",
   },
   "devDependencies": {},
   "repository": {
