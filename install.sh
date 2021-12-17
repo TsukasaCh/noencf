@@ -1,15 +1,15 @@
 #!/usr/bin/bash
 
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install tty-clock -y
-sudo apt-get install sox -y
-sudo apt-get install jq -y
-sudo apt-get install figlet -y
-sudo apt-get install wget -y
-sudo apt-get install ffmpeg
-sudo apt-get install libwebp -y
-sudo apt-get install tesseract -y
+pkg update -y
+pkg upgrade -y
+pkg install tty-clock -y
+pkg install sox -y
+pkg install jq -y
+pkg install figlet -y
+pkg install wget -y
+pkg install ffmpeg
+pkg install libwebp -y
+pkg install tesseract -y
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install 
 npm i pm2 -g
