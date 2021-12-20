@@ -3,7 +3,6 @@
 apt update -y
 apt upgrade -y
 apt install screenfetch -y
-apt install ffmpeg
 apt install tty-clock -y
 apt install sox -y
 apt install jq -y
