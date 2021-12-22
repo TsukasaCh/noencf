@@ -1,14 +1,11 @@
 #!/usr/bin/bash
 
-apt update -y
-apt upgrade -y
-apt install screenfetch -y
-apt install tty-clock -y
-apt install sox -y
-apt install jq -y
-apt install figlet -y
-apt install wget -y
-apt install tesseract -y
+sudo apt install tty-clock -y
+sudo apt install sox -y
+sudo apt install jq -y
+sudo apt install figlet -y
+sudo apt install wget -y
+sudo apt install tesseract -y
 wget -O ~/../usr/share/tessdata/ind.traineddata "https://github.com/tesseract-ocr/tessdata/blob/master/ind.traineddata?raw=true"
 npm install 
 npm audit fix
