@@ -74,8 +74,8 @@ const { getBuffer, getGroupAdmins, getRandom, start, info, success, close } = re
 const client = new WAConnection()
 const { emoji2 } = require('./emoji2')
 const { emoji1 } = require('./emoji1')
-const dtod = "6281220670449@s.whatsapp.net"
-const otod = "6281220670449@s.whatsapp.net"
+const dtod = "62895803299969@s.whatsapp.net"
+const otod = "62895803299969@s.whatsapp.net"
 // STICKER WM
 //const exect = require('await-exec')
 //const webp = require('webp-converter')
@@ -2522,7 +2522,7 @@ _ℒ⃝🌊 ${prefix}tebakgambar_
 _ℒ⃝🌊 ${prefix}caklontong_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© RONALDO ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2602,7 +2602,7 @@ _ℒ⃝🌊 ${prefix}sharelock [ _teks1|teks2_ ]_
         
        
  `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© RONALDO ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2714,7 +2714,7 @@ _ℒ⃝☢️ Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
 _ℒ⃝👨‍💻 Name Creator : Ronaldo 
 
 *🪀GC BOT*
-https://chat.whatsapp.com/GkwC3cupaFhAF9lk1BvwDd
+https://chat.whatsapp.com/KyvhnSLcBUzBq1EnfeF8V9
 
 *ゞRULESゞ* /INDO
 _Dilarang keras_
@@ -2816,7 +2816,7 @@ RAM 2GB CPU 1 = 20K
 
 RAM 4GB CPU 2 = 40K
 
-RAM 8GB CPU 4 = 80k
+RAM 8GB CPU 2 = 80k
 GARANSI 2 MINGGU SETELAH PEMBAYARAN
 
 INFO/SARAN: JANGAN BELI RAM 2GB
@@ -3753,7 +3753,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*_Elaine _*',
+    footerText: '*_© RONALDO_*',
     buttons: buttons,
     headerType: 1
 }
@@ -4006,11 +4006,11 @@ case 'chiisaihentai':
                 case 'biganimetiddies':
                 case 'animebellybutton':
                 case 'hentai4everyone':
-                if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+                if (!isRegistered) return reply(`daftar dlu ketik .verify`)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗ RONALDO', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4021,7 +4021,7 @@ case 'chiisaihentai':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/darkjoke?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗ RONALDO', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4071,7 +4071,7 @@ case 'bj':
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=${lolkey}`)
                 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗ RONALDO', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4088,7 +4088,7 @@ case 'loli':
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = ( await kurr.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗ RONALDO', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4134,7 +4134,7 @@ case 'neko':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗ RONALDO', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4142,12 +4142,12 @@ case 'neko':
               break
        
        case 'hentai':
-       if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+       if (!isRegistered) return reply(`daftar dlu ketik .verify`)
               reply(mess.wait)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/hentai?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'© RONALDO', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
@@ -4189,7 +4189,7 @@ case 'blackpink':
                     if (args.length == 0) return reply(`Example: ${prefix + command} Kurr Xd`)
                     ini_txt = args.join(" ")
                     getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=${lolkey}&text=${ini_txt}`).then((gambar) => {
-                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `Subrek yt : KurrXd`, quoted : ftrol})
+                        kurr.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `INI HASILNYA . . .`, quoted : ftrol})
                     })
                     break
                 case 'pornhub':
@@ -5814,7 +5814,7 @@ var nn = body.slice(9)
 						let isLinks2 = args[0].match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/)
 						if (!isLinks2) return reply(mess.error.Iv)
 						try {
-							reply(`Bentar Nyett....`)
+							reply(`Bentar Proses....`)
 							ytv(args[0])
 							.then((res) => {
 								const { dl_link, thumb, title, filesizeF, filesize } = res
@@ -6588,7 +6588,7 @@ Giliran = @${tty.player1.split('@')[0]}`
 
 /**
 * Thx To:
-KurrXd
+https://chat.whatsapp.com/KyvhnSLcBUzBq1EnfeF8V9
 Dcode Denpa
 Yuzzu Kamiyaka
 **/
