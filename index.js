@@ -146,7 +146,7 @@ const starts = async (kurr = new WAConnection()) => {
 console.log(color('> WITA ','silver'), color(`${wita}`,'mediumseagreen'))
 console.log(color('> WIT ','silver'), color(`${wit}`,'mediumseagreen'))
 console.log(color('> HARI ','silver'), color(`${tampilHari}\n`,'mediumseagreen'))
-	kurr.browserDescription = [ 'BOT ', 'ubuntu', '3.0' ]
+	kurr.browserDescription = [ 'YONZZI ', 'Desktop', '3.0' ]
 
 	kurr.on('qr', () => {
 	console.log(color('[','white'), color('!','red'), color(']','white'), color('SCAN QR NYA'))
