@@ -430,13 +430,13 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
                 case 9: jamss = "Pagi ☀️"; break;
                 case 10: jamss = "Pagi ☀️"; break;
                 case 11: jamss = "Siang 🌞"; break;
-                case 12: jamss = "Udh Dzuhur  Jangan Lupa Shalat Kak 🌞"; break;
+                case 12: jamss = "Udh Dzuhur Jangan kelayapan Kak 🌞"; break;
                 case 13: jamss = "Siang 🌞"; break;
                 case 14: jamss = "Siang 🌞"; break;
-                case 15: jamss = "Dah Ashar Jangan Lupa Shalat kak🌞"; break;
+                case 15: jamss = "Dah Ashar Jangan kelayapan🌞"; break;
                 case 16: jamss = "Sore ☀️"; break;
                 case 17: jamss = "Sore 🌄"; break;
-                case 18: jamss = "Dah Maghrib Jangan Lupa Shalat Kak 🌄"; break;
+                case 18: jamss = "Dah Maghrib Jangan kelayapan Kak 🌄"; break;
                 case 19: jamss = "Malam 🌙"; break;
                 case 20: jamss = "Malam 🌙"; break;
                 case 21: jamss = "Malam 🌙"; break;
@@ -509,7 +509,7 @@ const ftrol = {
                             status: 1,
                             surface : 1,
                             message: `BOT AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
-                            orderTitle: `KurrXdゑ v.3.0`,
+                            orderTitle: `_© RONALDO_`,
                             thumbnail: ofrply3, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -1171,7 +1171,7 @@ kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
 kurr.sendMessage("62895803299969@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "Ada apa nyebut owner gw?", text)
 }
-if(budy.includes('owner')){
+if(budy.includes('Юу')){
 kurr.sendMessage(from, "langsung aja pm @62895803299969 dia orang nya ganteng", text)
 kurr.sendMessage("62895803299969@s.whatsapp.net", `ada yang manggil`, text)
 kurr.sendMessage(from, "Ganteng kan?", text)
@@ -1181,7 +1181,7 @@ kurr.sendMessage(from, "ada apa cug?", text)
 kurr.sendMessage("62895803299969@s.whatsapp.net", `bang di gosipin Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "ketik #menu untuk memulai bot", text)
 }
-if(budy.includes('Ronal Yatim')){
+if(budy.includes('Юу')){
 kurr.sendMessage(from, "hayo ngomongin owner gua ya", text)
 kurr.sendMessage("62895803299969@s.whatsapp.net", `bang dikatain Ama wa.me/${sender} Labrak Bang`, text)
 kurr.sendMessage(from, "Mampus Udh Ku Laporin", text)
@@ -2341,7 +2341,7 @@ _ℒ⃝🌊 ${prefix}milf_
 _ℒ⃝🌊 ${prefix}cosplay_        
        
  `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© RONALDO ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2812,26 +2812,17 @@ case 'catlog':
 *Jasa Run Bot/ Hosting Bot*
 *Dengan Harga Terjangkau*
 *_List Harga Rdp_*
-RAM 2GB CPU 1 = 20K
+RAM 3GB CPU 1 = 20K
 
-RAM 4GB CPU 2 = 40K
+RAM 8GB CPU 2 = 50K
 
-RAM 8GB CPU 2 = 80k
+RAM 16GB CPU 2 = 120k
 GARANSI 2 MINGGU SETELAH PEMBAYARAN
 
-INFO/SARAN: JANGAN BELI RAM 2GB
-JIKA UNTUK KEBUTUHAN BOT KARNA BISA
-MENYEBAB KAN OVERLOAD
+T.O.S
+~ bukan untuk mining
 
-OVERLOAD= NO GARANSI
-*_List Harga Vps_*
-Ram 2 Cpu 1 Expire 1 Tahun = 50k
-
-*GARANSI 3BULAN SETELAH PEMBAYARAN*
-
-Beli SC BOT YG gw pake? 10k noenc!
-
-MINAT KETIK .owner`
+MINAT HUBUNGI wa.me/+62895803299969`
 if(menuall == false){
    //Masih langka
 anu = kurr.prepareMessageFromContent(from,{
@@ -3071,11 +3062,11 @@ break
                    }
               break       
 		case 'gay':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`PROSES KAK....`)
 					console.log(color(time, 'magenta'), color('Downloading sticker...'))
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
@@ -3095,11 +3086,11 @@ break
 					}
 					break
 		case 'glass':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`PROSES KAK....`)
 					console.log(color(time, 'magenta'), color('Downloading sticker...'))
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
@@ -3119,11 +3110,11 @@ break
 					}
 					break
 		case 'passed':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`PROSES KAK...`)
 					console.log(color(time, 'magenta'), color('Downloading sticker...'))
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
@@ -3143,11 +3134,11 @@ break
 					}
 					break
 		case 'jail':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`PROSES KAK....`)
 					console.log(color(time, 'magenta'), color('Downloading sticker...'))
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
@@ -3167,7 +3158,7 @@ break
 					}
 					break
 		case 'comrade':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
@@ -3341,11 +3332,11 @@ break
 					}
 				 break
          case 'blurple':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`PROSES KAK...`)
 					console.log(color(time, 'magenta'), color('Downloading sticker...'))
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
@@ -3391,11 +3382,11 @@ break
 					}
 				 break 
 		case 'wasted':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`PROSES KAK...`)
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
 					teks = `${anu.display_url}`
@@ -3415,11 +3406,11 @@ break
 					break 
 		case 'pelangi':
 		case 'rainbow':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`PROSES KAK....`)
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
 					teks = `${anu.display_url}`
@@ -3474,7 +3465,7 @@ break
 		            })              
 					break
 case 'igstalk':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu kak ketik .verify`)
 try{
 if (!c) return reply('Usernamenya?')
 ig.fetchUser(`${args.join(' ')}`).then(Y => {
@@ -3619,7 +3610,7 @@ ${anime.desc}\n\n*Link Batch* : ${anime.batch}\n*Link Download SD* : ${anime.bat
 		if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 if (args.length < 1) return reply('Link?')
 lin = args[0]
-reply(`Bentar Nyett....`)
+reply(`PROSES KAK....`)
 hx.twitter(lin).then(res => {
 console.log('[ TWITTER ] downloader')
 Anu = res.SD
