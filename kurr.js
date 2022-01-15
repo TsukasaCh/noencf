@@ -421,8 +421,8 @@ return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a
                 case 0: jamss = "Dah Malam Jangan Gadang 🌚"; break;
                 case 1: jamss = "Dah Malam Jangan Gadang 🌚"; break;
                 case 2: jamss = "Dah Malam Jangan Gadang 🌚"; break;
-                case 3: jamss = "Dah Mau Shubuh Siap Siap Shalat Ya 🌔"; break;
-                case 4: jamss = "Dah Shubuh Jangan Lupa Shalat Kak🌔"; break;
+                case 3: jamss = "Dah Mau Shubuh Ya 🌔"; break;
+                case 4: jamss = "Dah Shubuh Kak🌔"; break;
                 case 5: jamss = "Pagi 🌄"; break;
                 case 6: jamss = "Pagi 🌄"; break;
                 case 7: jamss = "Pagi 🌄"; break;
@@ -1676,7 +1676,7 @@ _ℒ⃝🌊 ${prefix}bukatime [ _detik/menit/jam_ ]_
 _ℒ⃝🌊 ${prefix}tutuptime [ _detik/menit/jam_ ]_
 _ℒ⃝🌊 ${prefix}nano [ _nama file_ ]_             
  `
-sendButLocation(from, `${menu}`, "*_© Elaine ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Ronaldo ゑ_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`menu`,buttonText:{displayText:'BACK TO MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2155,7 +2155,7 @@ fill =`Ohayoo ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =` Elaine ゑ`
+menu =` Ronaldo ゑ`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -2667,19 +2667,19 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/meme?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'✗ Ronaldo', imageMessage: imageMsg,
               contentText:`Nih Om`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
                     break
 case 'darkjoke':
 case 'memeindo':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu dek ketik .verify`)
               buff = await getBuffer(`https://api.lolhuman.xyz/api/meme/${command}?apikey=${lolkey}`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await kurr.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'✗✗✗ KurrXd', imageMessage: imageMsg,
-              contentText:`Nih Om`,buttons,headerType:4}
+              buttonsMessage = {footerText:'✗ Ronaldo', imageMessage: imageMsg,
+              contentText:`Nih hasilnya deck`,buttons,headerType:4}
               prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{quoted: ftrol})
               kurr.relayWAMessage(prep)
                     break
@@ -3307,11 +3307,11 @@ break
 					}
 				 break 
 		case 'red':
-  if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
+  if (!isRegistered) return reply(`daftar dlu dek ketik .verify`)
 					var imgbb = require('imgbb-uploader')
 					if ((isMedia && !mek.message.videoMessage || isQuotedImage) && args.length == 0) {
 					ger = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek 
-					reply(`Bentar Nyett....`)
+					reply(`Bentar dek....`)
 					console.log(color(time, 'magenta'), color('Downloading sticker...'))
 					owgi = await  kurr.downloadAndSaveMediaMessage(ger)
 					anu = await imgbb("0ffc503f79f9b051b82e643eb3e3a746", owgi)
@@ -4454,7 +4454,7 @@ if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 const buttons = [{buttonId: 'autorespon on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'autorespon off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const btnharam = {
     contentText: `${anu}`,
-    footerText: '*_Elaine _*',
+    footerText: '*_ Ronaldo _*',
     buttons: buttons,
     headerType: 1
 }
@@ -4554,7 +4554,7 @@ break
 case 'googleimage':
 if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 if (args.length < 1) return reply('Apa Yang Mau Dicari?')
-reply(`Bentar Nyett....`)
+reply(`Bentar Ya proses....`)
 teks = args.join(' ')
 res = await googleImage(teks, google)
 function google(error, result){
@@ -5353,7 +5353,7 @@ if (!isOwner && !mek.key.fromMe) return reply(`Khusus Owner Om`)
 				case 'tomp4':
               if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 					if (!isQuotedSticker) return reply('reply stiker nya')
-                                        reply(`Bentar Nyett....`)
+                                        reply(`Bentar dek....`)
             if ((isMedia && !mek.message.videoMessage || isQuotedSticker) && args.length == 0) {
             ger = isQuotedSticker ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
             owgi = await kurr.downloadAndSaveMediaMessage(ger)
@@ -6070,7 +6070,8 @@ break
               if (!isRegistered) return reply(`daftar dlu om ketik .verify`)
 						if (!isQuotedSticker) return reply(`reply sticker dengan caption *${prefix}takestick nama|author*`)
 						ppp = `${args.join(' ')}`
-						const encmedia = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+						const encmedia = JSON.parse(JSON.st
+ringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
 						const media = await kurr.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
 						const packname = ppp.split('|')[0]
 						const author = ppp.split('|')[1]
